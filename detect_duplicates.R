@@ -1,5 +1,6 @@
 # Load the CSV file into a dataframe
-data <- read.csv("your_file.csv")  # Replace "your_file.csv" with your CSV file path
+# Replace "your_file.csv" with your CSV file path
+data <- read.csv("your_file.csv")  
 
 # Detect duplicate rows based on all columns
 duplicate_rows <- data[duplicated(data), ]
